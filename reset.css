@@ -46,6 +46,32 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/* General setup */
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
 p {
-  font-family: "Helvetica", "Trebuchet MS", "Verdana", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
 }
